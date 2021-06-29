@@ -1,4 +1,3 @@
-last update : 2021.06.29.  
 team project 02. burger-index
 # 버거 지수는 실제로 도시의 발전을 나타낼까?
 
