@@ -33,3 +33,42 @@ team project 02. burger-index
 |상관관계 분석 및 시각화| 2021.07.02~07.07(4일)|브랜드별 매장 분포 지도 시각화, 상관관계 분석|
 |심화 주제 진행 | 2021.07.08 (1일)|맘스터치 매장 분포 지도 시각화, 상관관계 분석|
 |프로젝트 정리 및 발표| 2021.07.09 (1일)| 발표 자료, 프로젝트 보고서|
+
+##  1차 결과 보고 (2021.07.02)
+1.  맥도날드, 버거킹, KFC 전국 매장수 웹 크롤링 완료, 롯데리아 업데이트 진행 중
+2.  맥도날드, 버거킹, KFC 전처리 완료
+3.  시각화
+
+- 전국 브랜드별 매장 수
+
+![image](https://user-images.githubusercontent.com/38090151/124228920-d6552f80-db47-11eb-8ad1-4c234196b435.png)
+
+- 전국 브랜드별 매장 수 + 롯데리아 추가
+
+|수직바|
+|---|
+|![bar](https://user-images.githubusercontent.com/38090151/124228898-cf2e2180-db47-11eb-8787-c7d8fcbcf742.png) | 
+
+|수평바|
+|----|
+|![barh](https://user-images.githubusercontent.com/38090151/124228902-d05f4e80-db47-11eb-97cf-e5d5bdfc38f8.png) |
+
+|파이차트|
+|-----|
+|![pie](https://user-images.githubusercontent.com/38090151/124228904-d0f7e500-db47-11eb-9b11-478980b1f3f2.png) |
+
+
+- 전국 광역시/특별시별 매장 수
+
+![image (2)](https://user-images.githubusercontent.com/38090151/124228906-d1907b80-db47-11eb-9df7-10a7a2a7a97d.png)
+
+
+- 서울특별시 버거 지도
+
+![image (1)](https://user-images.githubusercontent.com/38090151/124228919-d5bc9900-db47-11eb-9527-ad10213b5227.png)
+
+
+
+
+
+
