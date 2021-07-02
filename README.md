@@ -60,13 +60,13 @@ team project 02. burger-index
 
 - 전국 광역시/특별시별 매장 수
 
-![image (2)](https://user-images.githubusercontent.com/38090151/124228906-d1907b80-db47-11eb-9df7-10a7a2a7a97d.png)
+![image (1)](https://user-images.githubusercontent.com/38090151/124228919-d5bc9900-db47-11eb-9527-ad10213b5227.png)
 
 
 - 서울특별시 버거 지도
 
-![image (1)](https://user-images.githubusercontent.com/38090151/124228919-d5bc9900-db47-11eb-9527-ad10213b5227.png)
 
+![image (2)](https://user-images.githubusercontent.com/38090151/124228906-d1907b80-db47-11eb-9df7-10a7a2a7a97d.png)
 
 
 
