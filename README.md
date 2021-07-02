@@ -69,6 +69,11 @@ team project 02. burger-index
 ![image (2)](https://user-images.githubusercontent.com/38090151/124228906-d1907b80-db47-11eb-9df7-10a7a2a7a97d.png)
 
 
+4. 추후 분석 방향성 공유
+- 최종 데이터프레임 : 시+구군별 맥도날드/버거킹/KFC/롯데리아 매장수, 버거지수, 인구밀도 또는 경제지표
+- 브랜드별 상관관계 : 예) 버거킹이 많은 지역에는 KFC도 많을까?
+- 버거지수와 인구밀도/경제지표의 상관관계
+- 추가) 전국 시구군별 매장수/밀도 colormap, markercluster
 
 
 
