@@ -1,6 +1,9 @@
 team project 02. burger-index
 # 버거 지수는 실제로 도시의 발전을 나타낼까?
 
+![image](https://user-images.githubusercontent.com/38090151/124236819-d5c19680-db51-11eb-82af-539e62af5ed5.png)
+
+
 도시 발전 지표로서의 버거 지수 = (맥도날드 매장수 + 버거킹 매장수 +  KFC 매장수)/롯데리아 매장수
 
 ## 목표
