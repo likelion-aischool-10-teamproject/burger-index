@@ -1,0 +1,790 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+</head>
+<body>
+			<table class="tb03" border="1" cellpadding="1" cellspacing="1">
+				<caption>지역간 출근통행량</caption>
+				<colgroup>
+					<col style="width: 200px"/>
+					<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						<col style="width: 120px"/>
+						</colgroup>
+				<thead>
+					
+					<tr bgcolor="5B9BD5"> 
+						<th scope="col" rowspan="2">구분</th>
+						<th scope="col" colspan="12">2016 년</th>
+						</tr>
+					<tr bgcolor="5B9BD5">
+						
+						<th scope="col" colspan="6" >출근통행분포(통행/일)</th>
+										<th scope="col" colspan="6" class="last">출근통행분포 구성비(%)</th>
+									</tr>
+<tr bgcolor="5B9BD5">
+						<th scope="col">행정구역</th>
+						<th scope="col" >총출근발생량</th>
+							<th scope="col" >내부통행량</th>
+							<th scope="col" >외부(경기방향)</th>
+							<th scope="col" >외부(서울방향)</th>
+							<th scope="col" >외부(인천방향)</th>
+							<th scope="col" >외부(수도권외방향)</th>
+							<th scope="col" >총출근발생량</th>
+							<th scope="col" >내부통행량</th>
+							<th scope="col" >외부(경기방향)</th>
+							<th scope="col" >외부(서울방향)</th>
+							<th scope="col" >외부(인천방향)</th>
+							<th scope="col" class="last">외부(수도권외방향)</th>
+							</tr>
+</thead>
+				<tbody>				
+				<tr>
+						<td>경기도</td>
+						<td >6,122,880</td>
+							<td >4,551,690</td>
+							<td >0</td>
+							<td >1,261,461</td>
+							<td >141,614</td>
+							<td >168,115</td>
+							<td >100</td>
+							<td >74.4</td>
+							<td >0</td>
+							<td >20.6</td>
+							<td >2.3</td>
+							<td class="last">2.7</td>
+							</tr>
+				<tr>
+						<td>_수원시(경기)</td>
+						<td >579,475</td>
+							<td >286,916</td>
+							<td >196,439</td>
+							<td >71,572</td>
+							<td >3,698</td>
+							<td >20,850</td>
+							<td >100</td>
+							<td >49.5</td>
+							<td >33.9</td>
+							<td >12.4</td>
+							<td >0.6</td>
+							<td class="last">3.6</td>
+							</tr>
+				<tr>
+						<td>__장안구(경기수원)</td>
+						<td >123,322</td>
+							<td >37,264</td>
+							<td >63,871</td>
+							<td >17,649</td>
+							<td >2,017</td>
+							<td >2,521</td>
+							<td >100</td>
+							<td >30.2</td>
+							<td >51.9</td>
+							<td >14.3</td>
+							<td >1.6</td>
+							<td class="last">2</td>
+							</tr>
+				<tr>
+						<td>__권선구(경기수원)</td>
+						<td >175,776</td>
+							<td >39,464</td>
+							<td >104,245</td>
+							<td >20,949</td>
+							<td >1,108</td>
+							<td >10,010</td>
+							<td >100</td>
+							<td >22.5</td>
+							<td >59.3</td>
+							<td >11.9</td>
+							<td >0.6</td>
+							<td class="last">5.7</td>
+							</tr>
+				<tr>
+						<td>__팔달구(경기수원)</td>
+						<td >114,302</td>
+							<td >26,873</td>
+							<td >74,490</td>
+							<td >8,776</td>
+							<td >153</td>
+							<td >4,010</td>
+							<td >100</td>
+							<td >23.5</td>
+							<td >65.2</td>
+							<td >7.7</td>
+							<td >0.1</td>
+							<td class="last">3.5</td>
+							</tr>
+				<tr>
+						<td>__영통구(경기수원)</td>
+						<td >166,075</td>
+							<td >49,032</td>
+							<td >88,116</td>
+							<td >24,198</td>
+							<td >420</td>
+							<td >4,309</td>
+							<td >100</td>
+							<td >29.5</td>
+							<td >53</td>
+							<td >14.6</td>
+							<td >0.3</td>
+							<td class="last">2.6</td>
+							</tr>
+				<tr>
+						<td>_성남시(경기)</td>
+						<td >531,361</td>
+							<td >296,083</td>
+							<td >64,079</td>
+							<td >156,180</td>
+							<td >1,454</td>
+							<td >13,565</td>
+							<td >100</td>
+							<td >55.6</td>
+							<td >12.1</td>
+							<td >29.4</td>
+							<td >0.3</td>
+							<td class="last">2.6</td>
+							</tr>
+				<tr>
+						<td>__수정구(경기성남)</td>
+						<td >128,243</td>
+							<td >38,904</td>
+							<td >52,606</td>
+							<td >34,154</td>
+							<td >120</td>
+							<td >2,459</td>
+							<td >100</td>
+							<td >30.4</td>
+							<td >41</td>
+							<td >26.6</td>
+							<td >0.1</td>
+							<td class="last">1.9</td>
+							</tr>
+				<tr>
+						<td>__중원구(경기성남)</td>
+						<td >135,921</td>
+							<td >50,175</td>
+							<td >48,560</td>
+							<td >31,387</td>
+							<td >627</td>
+							<td >5,172</td>
+							<td >100</td>
+							<td >36.9</td>
+							<td >35.7</td>
+							<td >23.1</td>
+							<td >0.5</td>
+							<td class="last">3.8</td>
+							</tr>
+				<tr>
+						<td>__분당구(경기성남)</td>
+						<td >267,197</td>
+							<td >106,800</td>
+							<td >63,117</td>
+							<td >90,639</td>
+							<td >707</td>
+							<td >5,934</td>
+							<td >100</td>
+							<td >40</td>
+							<td >23.6</td>
+							<td >33.9</td>
+							<td >0.3</td>
+							<td class="last">2.2</td>
+							</tr>
+				<tr>
+						<td>_의정부시(경기)</td>
+						<td >168,552</td>
+							<td >77,712</td>
+							<td >26,147</td>
+							<td >62,150</td>
+							<td >1,526</td>
+							<td >1,017</td>
+							<td >100</td>
+							<td >46.1</td>
+							<td >15.5</td>
+							<td >36.9</td>
+							<td >0.9</td>
+							<td class="last">0.6</td>
+							</tr>
+				<tr>
+						<td>_안양시(경기)</td>
+						<td >295,992</td>
+							<td >130,827</td>
+							<td >73,503</td>
+							<td >83,522</td>
+							<td >3,171</td>
+							<td >4,969</td>
+							<td >100</td>
+							<td >44.2</td>
+							<td >24.8</td>
+							<td >28.2</td>
+							<td >1.1</td>
+							<td class="last">1.7</td>
+							</tr>
+				<tr>
+						<td>__만안구(경기안양)</td>
+						<td >116,522</td>
+							<td >39,472</td>
+							<td >43,290</td>
+							<td >30,472</td>
+							<td >1,170</td>
+							<td >2,118</td>
+							<td >100</td>
+							<td >33.9</td>
+							<td >37.1</td>
+							<td >26.2</td>
+							<td >1</td>
+							<td class="last">1.8</td>
+							</tr>
+				<tr>
+						<td>__동안구(경기안양)</td>
+						<td >179,470</td>
+							<td >55,700</td>
+							<td >65,868</td>
+							<td >53,050</td>
+							<td >2,001</td>
+							<td >2,851</td>
+							<td >100</td>
+							<td >31</td>
+							<td >36.7</td>
+							<td >29.6</td>
+							<td >1.1</td>
+							<td class="last">1.6</td>
+							</tr>
+				<tr>
+						<td>_부천시(경기)</td>
+						<td >412,034</td>
+							<td >191,080</td>
+							<td >44,094</td>
+							<td >121,554</td>
+							<td >52,813</td>
+							<td >2,493</td>
+							<td >100</td>
+							<td >46.4</td>
+							<td >10.7</td>
+							<td >29.5</td>
+							<td >12.8</td>
+							<td class="last">0.6</td>
+							</tr>
+				<tr>
+						<td>_광명시(경기)</td>
+						<td >152,822</td>
+							<td >48,552</td>
+							<td >17,814</td>
+							<td >77,912</td>
+							<td >6,065</td>
+							<td >2,479</td>
+							<td >100</td>
+							<td >31.8</td>
+							<td >11.7</td>
+							<td >50.9</td>
+							<td >4</td>
+							<td class="last">1.6</td>
+							</tr>
+				<tr>
+						<td>_평택시(경기)</td>
+						<td >228,489</td>
+							<td >163,436</td>
+							<td >24,620</td>
+							<td >3,157</td>
+							<td >15</td>
+							<td >37,261</td>
+							<td >100</td>
+							<td >71.5</td>
+							<td >10.8</td>
+							<td >1.4</td>
+							<td >0</td>
+							<td class="last">16.3</td>
+							</tr>
+				<tr>
+						<td>_동두천시(경기)</td>
+						<td >45,697</td>
+							<td >22,527</td>
+							<td >12,000</td>
+							<td >10,711</td>
+							<td >243</td>
+							<td >216</td>
+							<td >100</td>
+							<td >49.3</td>
+							<td >26.3</td>
+							<td >23.4</td>
+							<td >0.5</td>
+							<td class="last">0.5</td>
+							</tr>
+				<tr>
+						<td>_안산시(경기)</td>
+						<td >359,771</td>
+							<td >245,889</td>
+							<td >72,761</td>
+							<td >30,361</td>
+							<td >5,055</td>
+							<td >5,705</td>
+							<td >100</td>
+							<td >68.4</td>
+							<td >20.2</td>
+							<td >8.4</td>
+							<td >1.4</td>
+							<td class="last">1.6</td>
+							</tr>
+				<tr>
+						<td>__상록구(경기안산)</td>
+						<td >171,202</td>
+							<td >54,279</td>
+							<td >94,132</td>
+							<td >17,991</td>
+							<td >2,460</td>
+							<td >2,340</td>
+							<td >100</td>
+							<td >31.7</td>
+							<td >55</td>
+							<td >10.5</td>
+							<td >1.4</td>
+							<td class="last">1.4</td>
+							</tr>
+				<tr>
+						<td>__단원구(경기안산)</td>
+						<td >188,569</td>
+							<td >127,804</td>
+							<td >42,435</td>
+							<td >12,370</td>
+							<td >2,595</td>
+							<td >3,365</td>
+							<td >100</td>
+							<td >67.7</td>
+							<td >22.5</td>
+							<td >6.6</td>
+							<td >1.4</td>
+							<td class="last">1.8</td>
+							</tr>
+				<tr>
+						<td>_고양시(경기)</td>
+						<td >471,083</td>
+							<td >219,320</td>
+							<td >81,467</td>
+							<td >154,001</td>
+							<td >13,057</td>
+							<td >3,238</td>
+							<td >100</td>
+							<td >46.5</td>
+							<td >17.3</td>
+							<td >32.7</td>
+							<td >2.8</td>
+							<td class="last">0.7</td>
+							</tr>
+				<tr>
+						<td>__덕양구(경기고양)</td>
+						<td >205,918</td>
+							<td >64,217</td>
+							<td >58,662</td>
+							<td >79,105</td>
+							<td >2,826</td>
+							<td >1,108</td>
+							<td >100</td>
+							<td >31.2</td>
+							<td >28.5</td>
+							<td >38.4</td>
+							<td >1.4</td>
+							<td class="last">0.5</td>
+							</tr>
+				<tr>
+						<td>__일산동구(경기고양)</td>
+						<td >141,891</td>
+							<td >41,878</td>
+							<td >49,466</td>
+							<td >43,474</td>
+							<td >6,373</td>
+							<td >700</td>
+							<td >100</td>
+							<td >29.5</td>
+							<td >34.9</td>
+							<td >30.6</td>
+							<td >4.5</td>
+							<td class="last">0.5</td>
+							</tr>
+				<tr>
+						<td>__일산서구(경기고양)</td>
+						<td >123,274</td>
+							<td >24,831</td>
+							<td >61,733</td>
+							<td >31,422</td>
+							<td >3,858</td>
+							<td >1,430</td>
+							<td >100</td>
+							<td >20.1</td>
+							<td >50.1</td>
+							<td >25.5</td>
+							<td >3.1</td>
+							<td class="last">1.2</td>
+							</tr>
+				<tr>
+						<td>_과천시(경기)</td>
+						<td >35,948</td>
+							<td >7,319</td>
+							<td >8,920</td>
+							<td >19,231</td>
+							<td >163</td>
+							<td >315</td>
+							<td >100</td>
+							<td >20.4</td>
+							<td >24.8</td>
+							<td >53.4</td>
+							<td >0.5</td>
+							<td class="last">0.9</td>
+							</tr>
+				<tr>
+						<td>_구리시(경기)</td>
+						<td >91,947</td>
+							<td >25,086</td>
+							<td >17,528</td>
+							<td >48,834</td>
+							<td >97</td>
+							<td >402</td>
+							<td >100</td>
+							<td >27.3</td>
+							<td >19.1</td>
+							<td >53.1</td>
+							<td >0.1</td>
+							<td class="last">0.4</td>
+							</tr>
+				<tr>
+						<td>_남양주시(경기)</td>
+						<td >270,057</td>
+							<td >100,699</td>
+							<td >67,591</td>
+							<td >99,141</td>
+							<td >286</td>
+							<td >2,340</td>
+							<td >100</td>
+							<td >37.3</td>
+							<td >25</td>
+							<td >36.7</td>
+							<td >0.1</td>
+							<td class="last">0.9</td>
+							</tr>
+				<tr>
+						<td>_오산시(경기)</td>
+						<td >93,759</td>
+							<td >35,041</td>
+							<td >54,869</td>
+							<td >1,992</td>
+							<td >113</td>
+							<td >1,744</td>
+							<td >100</td>
+							<td >37.4</td>
+							<td >58.5</td>
+							<td >2.1</td>
+							<td >0.1</td>
+							<td class="last">1.9</td>
+							</tr>
+				<tr>
+						<td>_시흥시(경기)</td>
+						<td >200,916</td>
+							<td >99,005</td>
+							<td >63,305</td>
+							<td >20,247</td>
+							<td >16,194</td>
+							<td >2,165</td>
+							<td >100</td>
+							<td >49.2</td>
+							<td >31.5</td>
+							<td >10.1</td>
+							<td >8.1</td>
+							<td class="last">1.1</td>
+							</tr>
+				<tr>
+						<td>_군포시(경기)</td>
+						<td >153,694</td>
+							<td >58,126</td>
+							<td >60,273</td>
+							<td >31,554</td>
+							<td >2,374</td>
+							<td >1,367</td>
+							<td >100</td>
+							<td >37.8</td>
+							<td >39.3</td>
+							<td >20.5</td>
+							<td >1.5</td>
+							<td class="last">0.9</td>
+							</tr>
+				<tr>
+						<td>_의왕시(경기)</td>
+						<td >80,672</td>
+							<td >18,868</td>
+							<td >46,158</td>
+							<td >13,776</td>
+							<td >1,141</td>
+							<td >729</td>
+							<td >100</td>
+							<td >23.4</td>
+							<td >57.2</td>
+							<td >17.1</td>
+							<td >1.4</td>
+							<td class="last">0.9</td>
+							</tr>
+				<tr>
+						<td>_하남시(경기)</td>
+						<td >99,080</td>
+							<td >41,190</td>
+							<td >15,569</td>
+							<td >38,857</td>
+							<td >41</td>
+							<td >3,423</td>
+							<td >100</td>
+							<td >41.6</td>
+							<td >15.7</td>
+							<td >39.2</td>
+							<td >0</td>
+							<td class="last">3.5</td>
+							</tr>
+				<tr>
+						<td>_용인시(경기)</td>
+						<td >465,678</td>
+							<td >224,733</td>
+							<td >130,100</td>
+							<td >92,787</td>
+							<td >1,810</td>
+							<td >16,248</td>
+							<td >100</td>
+							<td >48.3</td>
+							<td >27.9</td>
+							<td >19.9</td>
+							<td >0.4</td>
+							<td class="last">3.5</td>
+							</tr>
+				<tr>
+						<td>__처인구(경기용인)</td>
+						<td >110,680</td>
+							<td >66,854</td>
+							<td >25,665</td>
+							<td >16,084</td>
+							<td >231</td>
+							<td >1,846</td>
+							<td >100</td>
+							<td >60.4</td>
+							<td >23.2</td>
+							<td >14.5</td>
+							<td >0.2</td>
+							<td class="last">1.7</td>
+							</tr>
+				<tr>
+						<td>__기흥구(경기용인)</td>
+						<td >192,901</td>
+							<td >67,920</td>
+							<td >79,511</td>
+							<td >34,871</td>
+							<td >534</td>
+							<td >10,065</td>
+							<td >100</td>
+							<td >35.2</td>
+							<td >41.2</td>
+							<td >18.1</td>
+							<td >0.3</td>
+							<td class="last">5.2</td>
+							</tr>
+				<tr>
+						<td>__수지구(경기용인)</td>
+						<td >162,097</td>
+							<td >38,315</td>
+							<td >76,568</td>
+							<td >41,832</td>
+							<td >1,045</td>
+							<td >4,337</td>
+							<td >100</td>
+							<td >23.6</td>
+							<td >47.3</td>
+							<td >25.8</td>
+							<td >0.6</td>
+							<td class="last">2.7</td>
+							</tr>
+				<tr>
+						<td>_파주시(경기)</td>
+						<td >178,740</td>
+							<td >117,915</td>
+							<td >39,739</td>
+							<td >17,526</td>
+							<td >2,494</td>
+							<td >1,066</td>
+							<td >100</td>
+							<td >66</td>
+							<td >22.2</td>
+							<td >9.8</td>
+							<td >1.4</td>
+							<td class="last">0.6</td>
+							</tr>
+				<tr>
+						<td>_이천시(경기)</td>
+						<td >82,163</td>
+							<td >65,464</td>
+							<td >7,683</td>
+							<td >2,013</td>
+							<td >274</td>
+							<td >6,729</td>
+							<td >100</td>
+							<td >79.6</td>
+							<td >9.4</td>
+							<td >2.5</td>
+							<td >0.3</td>
+							<td class="last">8.2</td>
+							</tr>
+				<tr>
+						<td>_안성시(경기)</td>
+						<td >110,092</td>
+							<td >87,455</td>
+							<td >11,235</td>
+							<td >2,240</td>
+							<td >222</td>
+							<td >8,940</td>
+							<td >100</td>
+							<td >79.5</td>
+							<td >10.2</td>
+							<td >2</td>
+							<td >0.2</td>
+							<td class="last">8.1</td>
+							</tr>
+				<tr>
+						<td>_김포시(경기)</td>
+						<td >197,482</td>
+							<td >85,910</td>
+							<td >39,740</td>
+							<td >44,475</td>
+							<td >27,308</td>
+							<td >49</td>
+							<td >100</td>
+							<td >43.6</td>
+							<td >20.1</td>
+							<td >22.5</td>
+							<td >13.8</td>
+							<td class="last">0</td>
+							</tr>
+				<tr>
+						<td>_화성시(경기)</td>
+						<td >366,251</td>
+							<td >242,531</td>
+							<td >87,674</td>
+							<td >22,342</td>
+							<td >1,188</td>
+							<td >12,516</td>
+							<td >100</td>
+							<td >66.3</td>
+							<td >23.9</td>
+							<td >6.1</td>
+							<td >0.3</td>
+							<td class="last">3.4</td>
+							</tr>
+				<tr>
+						<td>_광주시(경기)</td>
+						<td >119,168</td>
+							<td >74,592</td>
+							<td >29,268</td>
+							<td >14,496</td>
+							<td >262</td>
+							<td >550</td>
+							<td >100</td>
+							<td >62.5</td>
+							<td >24.6</td>
+							<td >12.2</td>
+							<td >0.2</td>
+							<td class="last">0.5</td>
+							</tr>
+				<tr>
+						<td>_양주시(경기)</td>
+						<td >90,203</td>
+							<td >54,124</td>
+							<td >18,797</td>
+							<td >14,572</td>
+							<td >254</td>
+							<td >2,456</td>
+							<td >100</td>
+							<td >60</td>
+							<td >20.8</td>
+							<td >16.2</td>
+							<td >0.3</td>
+							<td class="last">2.7</td>
+							</tr>
+				<tr>
+						<td>_포천시(경기)</td>
+						<td >84,741</td>
+							<td >74,215</td>
+							<td >5,164</td>
+							<td >1,495</td>
+							<td >10</td>
+							<td >3,857</td>
+							<td >100</td>
+							<td >87.5</td>
+							<td >6.1</td>
+							<td >1.8</td>
+							<td >0</td>
+							<td class="last">4.6</td>
+							</tr>
+				<tr>
+						<td>_여주시(경기)</td>
+						<td >55,133</td>
+							<td >44,712</td>
+							<td >5,569</td>
+							<td >509</td>
+							<td >0</td>
+							<td >4,343</td>
+							<td >100</td>
+							<td >81.1</td>
+							<td >10.1</td>
+							<td >0.9</td>
+							<td >0</td>
+							<td class="last">7.9</td>
+							</tr>
+				<tr>
+						<td>_연천군(경기)</td>
+						<td >24,496</td>
+							<td >19,257</td>
+							<td >4,239</td>
+							<td >714</td>
+							<td >286</td>
+							<td >0</td>
+							<td >100</td>
+							<td >78.6</td>
+							<td >17.3</td>
+							<td >2.9</td>
+							<td >1.2</td>
+							<td class="last">0</td>
+							</tr>
+				<tr>
+						<td>_가평군(경기)</td>
+						<td >26,741</td>
+							<td >21,615</td>
+							<td >878</td>
+							<td >833</td>
+							<td >0</td>
+							<td >3,415</td>
+							<td >100</td>
+							<td >80.8</td>
+							<td >3.3</td>
+							<td >3.1</td>
+							<td >0</td>
+							<td class="last">12.8</td>
+							</tr>
+				<tr>
+						<td>_양평군(경기)</td>
+						<td >50,643</td>
+							<td >38,502</td>
+							<td >5,766</td>
+							<td >2,707</td>
+							<td >0</td>
+							<td >3,668</td>
+							<td >100</td>
+							<td >76.1</td>
+							<td >11.4</td>
+							<td >5.3</td>
+							<td >0</td>
+							<td class="last">7.2</td>
+							</tr>
+				</tbody>
+			</table>
+</body>
+</html>
