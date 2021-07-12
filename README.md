@@ -70,8 +70,8 @@ team project 02. burger-index
 ### 3. 결과 및 분석
 | ppt 슬라이드 | 설명|
 |:-------------------------:|:-------------------------|
-|![슬라이드13](https://user-images.githubusercontent.com/38090151/125221149-cafdc300-e302-11eb-9c1b-2cd573559296.png)| - 시도별 버거지수와 시군구별 버거지수 비교 <br> - 버거매장이 전혀 없는 특이지역 설명 및 세종시로 특이사항 설명 <br> - 버거지수가 기존의 ideation과 다른 양상을 띄는 것에 대한 의문점 제기 |
-|![슬라이드14](https://user-images.githubusercontent.com/38090151/125221153-ccc78680-e302-11eb-9d30-3d3cf55e0c38.png)| - 버거지수와 경제지표에 대한 heatmap을 통해 경제지표에 대한 설명력 분석 <br> - 1인당 지표를 제외하고는 연관관계가 불분명해보임 |
+|![슬라이드13](https://user-images.githubusercontent.com/38090151/125221149-cafdc300-e302-11eb-9c1b-2cd573559296.png)| **시도별 버거지수와 시군구별 버거지수 비교**<br> - 버거매장이 전혀 없는 특이지역 : 인구 소멸 지역 <br> - 세종시 인프라 투자에도 불구하고 버거지수 최저  <br> → 버거지수가 기존의 ideation과 다른 양상을 띄는 것에 대한 의문점 제기 |
+|![슬라이드14](https://user-images.githubusercontent.com/38090151/125221153-ccc78680-e302-11eb-9d30-3d3cf55e0c38.png)| **heatmap을 통 경제지표에 대한 설명력 분석** <br> - 1인당 지표를 제외하고는 연관관계가 불분명해보임 |
 |![슬라이드15](https://user-images.githubusercontent.com/38090151/125221158-cdf8b380-e302-11eb-9e43-3cd09314b06d.png)| - 버거지수와 인구수 관련 지표에 대한 분석을 하면서 6년전 data를 활용함 <br> - 6년간의 변화양상과 인구수 이외의 지표를 분석해야한다는 결과 도출 |
 |![슬라이드16](https://user-images.githubusercontent.com/38090151/125221161-ce914a00-e302-11eb-8ef1-b0726afe9e7d.png)| - 전국시군구별 버거매장 colormap <br> - 다른 매장은 비슷한데, 버거킹만 달라지게 되었고 가장 두드러진 경북 구미시와 안동시에 대해 텍스트로도 보임 |
 |![슬라이드17](https://user-images.githubusercontent.com/38090151/125221162-cf29e080-e302-11eb-8b78-e2e44a031357.png)| - bar plot으로 매장수 비교 더 잘 보이게 함 |
@@ -80,3 +80,6 @@ team project 02. burger-index
 
 
 outlier 분석을 위해 유동인구 및 주민등록상 인구지표 활용해 설명력을 높임
+
+### 4. 결론
+
