@@ -1,7 +1,7 @@
 team project 02. burger-index
 # 버거 지수는 실제로 도시의 발전을 나타낼까?
 - 기간 : 2021.06.28 ~ 07.12
-- 팀원 : [김동화](https://github.com/dddonghwa), [김남은](), [김민수](), [최민혁]() (개인 GitHub 링크)
+- 팀원 : [김동화](https://github.com/dddonghwa), [김남은](https://github.com/DestinyKim), [김민수](), [최민혁]() (개인 GitHub 링크)
 - 주요 라이브러리 : *selenium, bs4, requests, pandas, matplotlib, seaborn, plotly*
 - 폴더 설명 :  
 1. web-crawling : 웹크롤링 소스 코드 및 결과  
