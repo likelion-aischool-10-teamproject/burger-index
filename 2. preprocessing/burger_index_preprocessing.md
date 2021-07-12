@@ -392,16 +392,16 @@ print()
 print( lotteria_df['지점명'].value_counts().sort_values(ascending=False).head(1) )
 ```
 
-    대구월촌역FS점    2
+    상인SK점    2
     Name: 지점명, dtype: int64
     
-    연제이마트    1
+    김해내동    1
     Name: 매장명, dtype: int64
     
-    김포감정DT점    1
+    부평중앙    1
     Name: 매장명, dtype: int64
     
-    순천용당    1
+    광양중동    1
     Name: 지점명, dtype: int64
 
 
@@ -2144,16 +2144,16 @@ nstore_df['주소2'].value_counts().head(10) # 어느 도/시에서 겹치는거
 
 
 
-    중구      6
-    동구      5
-    서구      5
-    북구      4
-    남구      4
-    고성군     2
-    강서구     2
-    의정부시    1
-    함평군     1
-    부여군     1
+    중구     6
+    서구     5
+    동구     5
+    북구     4
+    남구     4
+    고성군    2
+    강서구    2
+    춘천시    1
+    진천군    1
+    청도군    1
     Name: 주소2, dtype: int64
 
 
@@ -2176,18 +2176,18 @@ for one in list_duplicates :
     부산광역시 중구    부산광역시
     Name: 주소1, dtype: object 
     
-    광주광역시 동구    광주광역시
-    대구광역시 동구    대구광역시
-    대전광역시 동구    대전광역시
-    울산광역시 동구    울산광역시
-    부산광역시 동구    부산광역시
-    Name: 주소1, dtype: object 
-    
     광주광역시 서구    광주광역시
     대구광역시 서구    대구광역시
     대전광역시 서구    대전광역시
     인천광역시 서구    인천광역시
     부산광역시 서구    부산광역시
+    Name: 주소1, dtype: object 
+    
+    광주광역시 동구    광주광역시
+    대구광역시 동구    대구광역시
+    대전광역시 동구    대전광역시
+    울산광역시 동구    울산광역시
+    부산광역시 동구    부산광역시
     Name: 주소1, dtype: object 
     
     광주광역시 북구    광주광역시
@@ -3302,8 +3302,8 @@ df_2
 ```python
 pop_df_all = pd.read_excel(input_path+"stat_100701.xls",skiprows=3)
 pop_df = pop_df_all[1:-5] # 불필요한 행 제거
-pop_df = pop_df[["Unnamed: 0", "인구.1","인구밀도.1"]] # 불필요한 열 제거
-pop_df = pop_df.rename(columns={"Unnamed: 0": "행정구역", "인구.1":"인구","인구밀도.1":"인구밀도"}) # 컬럼명 수정
+pop_df = pop_df[["Unnamed: 0", "인구.3","인구밀도.3"]] # 불필요한 열 제거
+pop_df = pop_df.rename(columns={"Unnamed: 0": "행정구역", "인구.3":"인구","인구밀도.3":"인구밀도"}) # 컬럼명 수정
 # 행정구역 이름 동일화
 pop_df = pop_df.replace({'서울':'서울특별시',
                         '부산':'부산광역시',
@@ -3357,104 +3357,104 @@ pop_df
     <tr>
       <th>1</th>
       <td>서울특별시</td>
-      <td>9,766</td>
-      <td>16,136</td>
+      <td>9,662</td>
+      <td>15,964</td>
     </tr>
     <tr>
       <th>2</th>
       <td>부산광역시</td>
-      <td>3,424</td>
-      <td>4,447</td>
+      <td>3,373</td>
+      <td>4,380</td>
     </tr>
     <tr>
       <th>3</th>
       <td>대구광역시</td>
-      <td>2,458</td>
-      <td>2,782</td>
+      <td>2,432</td>
+      <td>2,753</td>
     </tr>
     <tr>
       <th>4</th>
       <td>인천광역시</td>
-      <td>2,924</td>
-      <td>2,750</td>
+      <td>2,944</td>
+      <td>2,769</td>
     </tr>
     <tr>
       <th>5</th>
       <td>광주광역시</td>
-      <td>1,495</td>
-      <td>2,984</td>
+      <td>1,494</td>
+      <td>2,980</td>
     </tr>
     <tr>
       <th>6</th>
       <td>대전광역시</td>
-      <td>1,528</td>
-      <td>2,832</td>
+      <td>1,509</td>
+      <td>2,796</td>
     </tr>
     <tr>
       <th>7</th>
       <td>울산광역시</td>
-      <td>1,159</td>
-      <td>1,092</td>
+      <td>1,147</td>
+      <td>1,080</td>
     </tr>
     <tr>
       <th>8</th>
       <td>세종특별자치시</td>
-      <td>266</td>
-      <td>571</td>
+      <td>331</td>
+      <td>712</td>
     </tr>
     <tr>
       <th>9</th>
       <td>경기도</td>
-      <td>12,786</td>
-      <td>1,255</td>
+      <td>13,238</td>
+      <td>1,299</td>
     </tr>
     <tr>
       <th>10</th>
       <td>강원도</td>
-      <td>1,521</td>
+      <td>1,517</td>
       <td>90</td>
     </tr>
     <tr>
       <th>11</th>
       <td>충청북도</td>
-      <td>1,609</td>
-      <td>217</td>
+      <td>1,626</td>
+      <td>219</td>
     </tr>
     <tr>
       <th>12</th>
       <td>충청남도</td>
-      <td>2,153</td>
-      <td>262</td>
+      <td>2,188</td>
+      <td>265</td>
     </tr>
     <tr>
       <th>13</th>
       <td>전라북도</td>
-      <td>1,829</td>
-      <td>227</td>
+      <td>1,803</td>
+      <td>223</td>
     </tr>
     <tr>
       <th>14</th>
       <td>전라남도</td>
-      <td>1,795</td>
-      <td>146</td>
+      <td>1,773</td>
+      <td>144</td>
     </tr>
     <tr>
       <th>15</th>
       <td>경상북도</td>
-      <td>2,675</td>
-      <td>141</td>
+      <td>2,665</td>
+      <td>140</td>
     </tr>
     <tr>
       <th>16</th>
       <td>경상남도</td>
-      <td>3,339</td>
-      <td>317</td>
+      <td>3,350</td>
+      <td>318</td>
     </tr>
     <tr>
       <th>17</th>
       <td>제주특별자치도</td>
-      <td>635</td>
-      <td>343</td>
+      <td>660</td>
+      <td>356</td>
     </tr>
   </tbody>
 </table>
@@ -3534,7 +3534,7 @@ nstore_pop_df
       <td>18997</td>
       <td>16811</td>
       <td>강원도</td>
-      <td>1,521</td>
+      <td>1,517</td>
       <td>90</td>
     </tr>
     <tr>
@@ -3551,8 +3551,8 @@ nstore_pop_df
       <td>20482</td>
       <td>17399</td>
       <td>경기도</td>
-      <td>12,786</td>
-      <td>1,255</td>
+      <td>13,238</td>
+      <td>1,299</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3568,8 +3568,8 @@ nstore_pop_df
       <td>18939</td>
       <td>16426</td>
       <td>경상남도</td>
-      <td>3,339</td>
-      <td>317</td>
+      <td>3,350</td>
+      <td>318</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3585,8 +3585,8 @@ nstore_pop_df
       <td>18611</td>
       <td>16217</td>
       <td>경상북도</td>
-      <td>2,675</td>
-      <td>141</td>
+      <td>2,665</td>
+      <td>140</td>
     </tr>
     <tr>
       <th>4</th>
@@ -3602,8 +3602,8 @@ nstore_pop_df
       <td>20532</td>
       <td>18231</td>
       <td>광주광역시</td>
-      <td>1,495</td>
-      <td>2,984</td>
+      <td>1,494</td>
+      <td>2,980</td>
     </tr>
     <tr>
       <th>5</th>
@@ -3619,8 +3619,8 @@ nstore_pop_df
       <td>19210</td>
       <td>17850</td>
       <td>대구광역시</td>
-      <td>2,458</td>
-      <td>2,782</td>
+      <td>2,432</td>
+      <td>2,753</td>
     </tr>
     <tr>
       <th>6</th>
@@ -3636,8 +3636,8 @@ nstore_pop_df
       <td>20498</td>
       <td>18025</td>
       <td>대전광역시</td>
-      <td>1,528</td>
-      <td>2,832</td>
+      <td>1,509</td>
+      <td>2,796</td>
     </tr>
     <tr>
       <th>7</th>
@@ -3653,8 +3653,8 @@ nstore_pop_df
       <td>19680</td>
       <td>18030</td>
       <td>부산광역시</td>
-      <td>3,424</td>
-      <td>4,447</td>
+      <td>3,373</td>
+      <td>4,380</td>
     </tr>
     <tr>
       <th>8</th>
@@ -3670,8 +3670,8 @@ nstore_pop_df
       <td>23440</td>
       <td>21891</td>
       <td>서울특별시</td>
-      <td>9,766</td>
-      <td>16,136</td>
+      <td>9,662</td>
+      <td>15,964</td>
     </tr>
     <tr>
       <th>9</th>
@@ -3687,8 +3687,8 @@ nstore_pop_df
       <td>19789</td>
       <td>16762</td>
       <td>세종특별자치시</td>
-      <td>266</td>
-      <td>571</td>
+      <td>331</td>
+      <td>712</td>
     </tr>
     <tr>
       <th>10</th>
@@ -3704,8 +3704,8 @@ nstore_pop_df
       <td>22550</td>
       <td>18482</td>
       <td>울산광역시</td>
-      <td>1,159</td>
-      <td>1,092</td>
+      <td>1,147</td>
+      <td>1,080</td>
     </tr>
     <tr>
       <th>11</th>
@@ -3721,8 +3721,8 @@ nstore_pop_df
       <td>19332</td>
       <td>16451</td>
       <td>인천광역시</td>
-      <td>2,924</td>
-      <td>2,750</td>
+      <td>2,944</td>
+      <td>2,769</td>
     </tr>
     <tr>
       <th>12</th>
@@ -3738,8 +3738,8 @@ nstore_pop_df
       <td>18711</td>
       <td>16104</td>
       <td>전라남도</td>
-      <td>1,795</td>
-      <td>146</td>
+      <td>1,773</td>
+      <td>144</td>
     </tr>
     <tr>
       <th>13</th>
@@ -3755,8 +3755,8 @@ nstore_pop_df
       <td>18725</td>
       <td>16022</td>
       <td>전라북도</td>
-      <td>1,829</td>
-      <td>227</td>
+      <td>1,803</td>
+      <td>223</td>
     </tr>
     <tr>
       <th>14</th>
@@ -3772,8 +3772,8 @@ nstore_pop_df
       <td>18734</td>
       <td>16953</td>
       <td>제주특별자치도</td>
-      <td>635</td>
-      <td>343</td>
+      <td>660</td>
+      <td>356</td>
     </tr>
     <tr>
       <th>15</th>
@@ -3789,8 +3789,8 @@ nstore_pop_df
       <td>18955</td>
       <td>16037</td>
       <td>충청남도</td>
-      <td>2,153</td>
-      <td>262</td>
+      <td>2,188</td>
+      <td>265</td>
     </tr>
     <tr>
       <th>16</th>
@@ -3806,8 +3806,8 @@ nstore_pop_df
       <td>18823</td>
       <td>15802</td>
       <td>충청북도</td>
-      <td>1,609</td>
-      <td>217</td>
+      <td>1,626</td>
+      <td>219</td>
     </tr>
   </tbody>
 </table>
@@ -3907,7 +3907,7 @@ nstore_pop_df
       <td>29392</td>
       <td>18997</td>
       <td>16811</td>
-      <td>1521</td>
+      <td>1517</td>
       <td>90</td>
     </tr>
     <tr>
@@ -3923,8 +3923,8 @@ nstore_pop_df
       <td>38466</td>
       <td>20482</td>
       <td>17399</td>
-      <td>12786</td>
-      <td>1255</td>
+      <td>13238</td>
+      <td>1299</td>
     </tr>
     <tr>
       <th>2</th>
@@ -3939,8 +3939,8 @@ nstore_pop_df
       <td>32140</td>
       <td>18939</td>
       <td>16426</td>
-      <td>3339</td>
-      <td>317</td>
+      <td>3350</td>
+      <td>318</td>
     </tr>
     <tr>
       <th>3</th>
@@ -3955,8 +3955,8 @@ nstore_pop_df
       <td>34873</td>
       <td>18611</td>
       <td>16217</td>
-      <td>2675</td>
-      <td>141</td>
+      <td>2665</td>
+      <td>140</td>
     </tr>
     <tr>
       <th>4</th>
@@ -3971,8 +3971,8 @@ nstore_pop_df
       <td>30964</td>
       <td>20532</td>
       <td>18231</td>
-      <td>1495</td>
-      <td>2984</td>
+      <td>1494</td>
+      <td>2980</td>
     </tr>
     <tr>
       <th>5</th>
@@ -3987,8 +3987,8 @@ nstore_pop_df
       <td>27798</td>
       <td>19210</td>
       <td>17850</td>
-      <td>2458</td>
-      <td>2782</td>
+      <td>2432</td>
+      <td>2753</td>
     </tr>
     <tr>
       <th>6</th>
@@ -4003,8 +4003,8 @@ nstore_pop_df
       <td>31548</td>
       <td>20498</td>
       <td>18025</td>
-      <td>1528</td>
-      <td>2832</td>
+      <td>1509</td>
+      <td>2796</td>
     </tr>
     <tr>
       <th>7</th>
@@ -4019,8 +4019,8 @@ nstore_pop_df
       <td>29388</td>
       <td>19680</td>
       <td>18030</td>
-      <td>3424</td>
-      <td>4447</td>
+      <td>3373</td>
+      <td>4380</td>
     </tr>
     <tr>
       <th>8</th>
@@ -4035,8 +4035,8 @@ nstore_pop_df
       <td>49121</td>
       <td>23440</td>
       <td>21891</td>
-      <td>9766</td>
-      <td>16136</td>
+      <td>9662</td>
+      <td>15964</td>
     </tr>
     <tr>
       <th>9</th>
@@ -4051,8 +4051,8 @@ nstore_pop_df
       <td>36983</td>
       <td>19789</td>
       <td>16762</td>
-      <td>266</td>
-      <td>571</td>
+      <td>331</td>
+      <td>712</td>
     </tr>
     <tr>
       <th>10</th>
@@ -4067,8 +4067,8 @@ nstore_pop_df
       <td>54969</td>
       <td>22550</td>
       <td>18482</td>
-      <td>1159</td>
-      <td>1092</td>
+      <td>1147</td>
+      <td>1080</td>
     </tr>
     <tr>
       <th>11</th>
@@ -4083,8 +4083,8 @@ nstore_pop_df
       <td>32571</td>
       <td>19332</td>
       <td>16451</td>
-      <td>2924</td>
-      <td>2750</td>
+      <td>2944</td>
+      <td>2769</td>
     </tr>
     <tr>
       <th>12</th>
@@ -4099,8 +4099,8 @@ nstore_pop_df
       <td>35532</td>
       <td>18711</td>
       <td>16104</td>
-      <td>1795</td>
-      <td>146</td>
+      <td>1773</td>
+      <td>144</td>
     </tr>
     <tr>
       <th>13</th>
@@ -4115,8 +4115,8 @@ nstore_pop_df
       <td>28260</td>
       <td>18725</td>
       <td>16022</td>
-      <td>1829</td>
-      <td>227</td>
+      <td>1803</td>
+      <td>223</td>
     </tr>
     <tr>
       <th>14</th>
@@ -4131,8 +4131,8 @@ nstore_pop_df
       <td>30834</td>
       <td>18734</td>
       <td>16953</td>
-      <td>635</td>
-      <td>343</td>
+      <td>660</td>
+      <td>356</td>
     </tr>
     <tr>
       <th>15</th>
@@ -4147,8 +4147,8 @@ nstore_pop_df
       <td>40953</td>
       <td>18955</td>
       <td>16037</td>
-      <td>2153</td>
-      <td>262</td>
+      <td>2188</td>
+      <td>265</td>
     </tr>
     <tr>
       <th>16</th>
@@ -4163,8 +4163,8 @@ nstore_pop_df
       <td>34484</td>
       <td>18823</td>
       <td>15802</td>
-      <td>1609</td>
-      <td>217</td>
+      <td>1626</td>
+      <td>219</td>
     </tr>
   </tbody>
 </table>
@@ -4650,7 +4650,7 @@ print(set(pop_area_df['주소']) - set(nstore_df['주소'])) # pop_area_df에는
 
     False
     set()
-    {'전라남도 신안군', '경상북도 청송군', '경상북도 영양군', '인천광역시 동구', '경상북도 군위군'}
+    {'경상북도 청송군', '경상북도 영양군', '경상북도 군위군', '인천광역시 동구', '전라남도 신안군'}
 
 
 
